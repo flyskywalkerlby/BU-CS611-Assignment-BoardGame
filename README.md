@@ -1,7 +1,8 @@
 # CS611-Assignment
 
-This is an assignment for CS611: Object-oriented Software Principles and Design at BU.
-I implemented Tic Tac Toe, Super Tic Tac Toe, Order and Chaos and Quoridor which extend BoardGame with Java and OOD design.
+This is an assignment for BU's CS611 course on "Object-oriented Software Principles and Design."   
+I implemented games including Tic Tac Toe, Super Tic Tac Toe, Order and Chaos, Quoridor utilizing Java and Object-Oriented Design (OOD) principles.
+All of the games are extensions of BoardGame class.
 
 ## Examples
 - Operation legality judgment
