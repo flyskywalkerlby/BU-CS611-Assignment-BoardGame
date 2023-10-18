@@ -4,12 +4,13 @@ This is an assignment for CS611: Object-oriented Software Principles and Design 
 I implemented Tic Tac Toe, Super Tic Tac Toe, Order and Chaos and Quoridor which extend BoardGame with Java and OOD design.
 
 ## Examples
+- Operation legality judgment
 ![case](images/invalid_oprerations.png)  
 
-- jump  
+- Jump  
 ![jump](images/jump.png)  
 
-- result   
+- Result   
 ![result](images/result.png)
 
 
