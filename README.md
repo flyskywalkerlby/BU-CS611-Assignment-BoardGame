@@ -1,13 +1,4 @@
-# CS611-Assignment 3
-
-## Quoridor
-Name: Boyang Liu  
-Email: liubyfly@bu.edu  
-Student ID: U54290758
-
-Name: Chunaho Bi  
-Email: chunhbi@bu.edu   
-Student ID: U58132128
+# CS611-Assignment
 
 ## Files
 ```
