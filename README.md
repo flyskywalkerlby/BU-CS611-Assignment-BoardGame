@@ -122,6 +122,9 @@ All of the games are extensions of BoardGame class.
 |--Performance
 ```
 
+## UML  
+![uml](UML.png)
+
 ## How to compile and run
 Run the following instructions:  
    mkdir out  
