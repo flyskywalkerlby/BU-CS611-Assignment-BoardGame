@@ -63,6 +63,13 @@ public class Wall{
     public static HashMap<Integer, Character> check_valid_indexes(int[] four_tile_indexes, int width, int wall_len) {
         HashMap<Integer, Character> resultMap = new HashMap<>();
 
+        Set<Integer> sideIndexes1 = new HashSet<>(Arrays.asList(four_tile_indexes[0], four_tile_indexes[1]));
+        Set<Integer> sideIndexes2 = new HashSet<>(Arrays.asList(four_tile_indexes[2], four_tile_indexes[3]));
+        if (sideIndexes1.containsAll(sideIndexes2)) {
+            System.out.println("[WARNING] Tiles on both sides are same.");
+            return null;
+        }
+
         String firstWallOrientation = get_wall_orientation_by_index(four_tile_indexes[0], four_tile_indexes[1], width, wall_len);
         if ("none".equals(firstWallOrientation)) {
             System.out.println("[WARNING] The line connecting tile0 and tile1 is not horizontal or vertical.");
